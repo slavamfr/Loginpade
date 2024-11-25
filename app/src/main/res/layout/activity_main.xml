@@ -12,20 +12,22 @@
         android:id="@+id/tv_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/poppins_bold"
         android:text="@string/login"
-        android:textSize="24sp"
-        android:textStyle="bold"
         android:textColor="@color/black"
-        android:layout_marginBottom="32dp"/>
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/et_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/username"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/rounded_edittext"
-        android:padding="16dp"
-        android:layout_marginBottom="16dp"/>
+        android:fontFamily="@font/poppins"
+        android:hint="@string/username"
+        android:padding="16dp" />
 
     <EditText
         android:id="@+id/et_password"
@@ -35,23 +37,25 @@
         android:background="@drawable/rounded_edittext"
         android:padding="16dp"
         android:layout_marginBottom="32dp"
+        android:fontFamily="@font/poppins"
         android:inputType="textPassword"/>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_login"
         android:textColor="@color/white"
         android:background="@drawable/rounded_button"
-        android:layout_marginBottom="24dp"/>
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/poppins"/>
 
     <TextView
         android:id="@+id/tv_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/register"
-        android:textColor="@color/blue"
+        android:fontFamily="@font/poppins"
         android:textSize="14sp"
         android:layout_gravity="center"/>
 

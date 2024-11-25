@@ -2,6 +2,8 @@
     <string name="login">Login</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
-    <string name="register">New Member? Register</string>
+    <string name="register">
+        New Member? <font color="#0000FF"> Register </font>
+    </string>
     <string name="button_login">Login</string>
 </resources>
